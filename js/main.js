@@ -37,10 +37,28 @@ fetch("./js/productos.json")
       });
    });
 
+// Mostrar / esconder carrito   
 btnCarrito.addEventListener("click", () => {
    mostrandoCarrito = !mostrandoCarrito;
    spanMostrarEsconderCarrito.textContent = mostrandoCarrito ? "Esconder" : "Mostrar";
    carrito.style.display = mostrandoCarrito ? "block" : "none";
 })
 
+//Limpiar carrito
 btnLimpiarCarrito.addEventListener("click", carro.limpiarCarro.bind(carro));
+
+//Finalizar compra
+btnFinalizarCompra.addEventListener("click", () => {
+   if (carro.objetos.length === 0) {
+      Swal.fire("Tu carrito está vacío", "Agrega algún producto antes de finalizar", "warning");
+      return;
+   }
+
+   Swal.fire({
+      title: "¡Compra realizada con exito!",
+      text: "Gracias por confiar en Reshipi Market",
+      icon: "succes",
+      confirmButtonText: "Aceptar",
+   });
+   carro.limpiarCarro();
+});

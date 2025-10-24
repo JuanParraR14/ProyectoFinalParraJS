@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Configuración general */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "raleway", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Barra de navegación */
+header {
+  background-color: #faa307;
+  color: #6a040f;
+}
+
+header img {
+  height: 100px;
+}
+
+#btn-carrito {
+  background: #6a040f;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn-carrito:hover {
+  background: #370617;
+}
+
+/* Diseño de carrito */
+
+#carrito {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  width: 300px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+#carrito p {
+  margin: 0.5rem 0;
+}
+
+#btn-limpiar-carrito {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+#btn-limpiar-carrito:hover {
+  background: #a4161a;
+}
+
+/* Productos */
+
+#contenedor-producto {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.contenedor {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contenedor:hover {
+  transform: translateY(-5px);
+}
+
+.contenedor h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.precio-contenedor {
+  font-weight: bold;
+  color: #6a040f;
+}
+
+.categoria-contenedor {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.btn-añadir-al-carrito {
+  background: #faa307;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-añadir-al-carrito:hover {
+  background: #ffba08;
+}
+
+/* Footer */
+footer {
+  background-color: #faa307;
+  color: #6a040f;
+}
+
+footer img {
+  height: 94px;
+}

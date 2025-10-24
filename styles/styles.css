@@ -78,6 +78,21 @@ header img {
   background: #a4161a;
 }
 
+#btn-finalizar-compra {
+  background: #faa307;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+#btn-finalizar-compra:hover {
+  background: #9d6600;
+}
+
 /* Productos */
 
 #contenedor-producto {

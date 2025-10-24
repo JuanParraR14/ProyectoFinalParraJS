@@ -1,0 +1,92 @@
+[
+   {
+      "id": 1,
+      "nombre": "Aceite de Oliva 250ml.",
+      "precio": 27800,
+      "categoria": "Aceites"
+   },
+   {
+      "id": 2,
+      "nombre": "Aceite de Girasol 900ml.",
+      "precio": 19200,
+      "categoria": "Aceites"
+   },
+   {
+      "id": 3,
+      "nombre": "Aceite de Oliva 900ml.",
+      "precio": 36500,
+      "categoria": "Aceites"
+   },
+   {
+      "id": 4,
+      "nombre": "Cepillo Dental",
+      "precio": 4900,
+      "categoria": "Higiene Oral"
+   },
+   {
+      "id": 5,
+      "nombre": "Crema Dental 75ml.",
+      "precio": 17300,
+      "categoria": "Higiene Oral"
+   },
+   {
+      "id": 6,
+      "nombre": "Enjuague Bucal 500ml.",
+      "precio": 19700,
+      "categoria": "Higiene Oral"
+   },
+   {
+      "id": 7,
+      "nombre": "Detergente Líquido Regular 2840ml.",
+      "precio": 66900,
+      "categoria": "Detergentes"
+   },
+   {
+      "id": 8,
+      "nombre": "Detergente Polvo Triple Poder 4000g.",
+      "precio": 57600,
+      "categoria": "Detergentes"
+   },
+   {
+      "id": 9,
+      "nombre": "Barra de Jabón Azul 300g.",
+      "precio": 9350,
+      "categoria": "Detergentes"
+   },
+   {
+      "id": 10,
+      "nombre": "Menta Helada 100 Unidades",
+      "precio": 8950,
+      "categoria": "Confitería"
+   },
+   {
+      "id": 11,
+      "nombre": "Gomas Sour 72g.",
+      "precio": 2100,
+      "categoria": "Confitería"
+   },
+   {
+      "id": 12,
+      "nombre": "Chocolatina Crujiente 28g.",
+      "precio": 4600,
+      "categoria": "Confitería"
+   },
+   {
+      "id": 13,
+      "nombre": "Papas Rizadas Mayonesa 25g.",
+      "precio": 900,
+      "categoria": "Pasabocas"
+   },
+   {
+      "id": 14,
+      "nombre": "Nachos sabor Queso 190g.",
+      "precio": 6150,
+      "categoria": "Pasabocas"
+   },
+   {
+      "id": 15,
+      "nombre": "Papas sabor Natural 25g.",
+      "precio": 1950,
+      "categoria": "Pasabocas"
+   }
+]
